@@ -17,7 +17,26 @@
  	left: 50%;
  	background-color: #632e04;
  	height: 4px;
+}
 
+.form-submit-button {
+	background: red;
+	color: white;
+	height: 40px;
+	width: 90px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.form-submit-button:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow:none;
+	height: 40px;
+	width: 100px;
 }
 
 h1 {
@@ -25,6 +44,7 @@ h1 {
 	vertical-align: center;
 	line-height: 90px;
 	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
 	color: white;
 }
 
@@ -32,6 +52,7 @@ h2 {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
+	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	color: yellow;
 }
@@ -48,6 +69,33 @@ p {
 	font-size: 20px;
 	padding-right: 200px;
 	padding-left: 200px;
+}
+
+figcaption {
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Oswald';
+	color: white;
+	font-size: 25px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 8px solid #632e04;
+	border-radius: 25%;
+}
+
+form {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	font-family: 'Oswald';
 }
 
 a {
